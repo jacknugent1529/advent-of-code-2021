@@ -8,7 +8,7 @@ if [ $# -eq 0 ]
 fi
 
 day=$1
-$dir = "day$day"
+dir="day$day"
 mkdir "$dir"
 touch "$dir/day$day.in"
 touch "$dir/day$day.test.in"
