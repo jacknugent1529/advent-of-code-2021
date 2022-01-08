@@ -24,12 +24,11 @@ mod days {
     pub mod day20;
     pub mod day21;
     pub mod day22;
-    pub mod day23;
 }
 
-// change day{n} to the desired day in the followign two lines
-const DAY: &str = "day23";
-use days::day23 as day;
+// change day{n} to the desired day in the following two lines
+const DAY: &str = "day22";
+use days::day22 as day;
 
 
 fn main() -> io::Result<()> {
